@@ -1,0 +1,855 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import url("https://fonts.cdnfonts.com/css/miama");
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* shared styles */
+.hide{
+  display: none;
+}
+.btn-primary {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+  line-height: 22px;
+  padding: 16px 40px;
+  border: none;
+  border-radius: 42px;
+  background-color: #e6533c;
+}
+.primary-text-color {
+  color: rgb(255, 255, 255, 50%);
+}
+.title{
+  font-size: 48px;
+  line-height: 120%;
+  font-weight: 900px;
+  color: #FFFFFF;
+}
+
+
+/* Header styles */
+header {
+  background: linear-gradient(
+    to bottom,
+    #111111 10%,
+    rgb(99, 99, 99) 50%,
+    #111111 90%
+  );
+}
+main{
+  background-color: #000000;
+}
+
+
+
+.navbar {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+}
+.nav-title {
+  color: #e6533c;
+  font-size: 2.25rem;
+  font-weight: 800;
+  line-height: 120%;
+}
+.btn-home {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: center;
+  padding: 8px 20px;
+  border-radius: 46px;
+  background-color: #e6533c;
+}
+.nav-item,
+a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  line-height: 120%;
+  color: #ffffff;
+  list-style: none;
+}
+.nav-items {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  border: 2px solid rgb(255, 255, 255, 10%);
+  border-radius: 39px;
+  padding: 4px 10px;
+}
+
+
+.banner {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 300px;
+  align-items: center;
+}
+.banner-title {
+  color: #ffffff;
+  font-size: 4.87rem;
+  font-weight: 900;
+  line-height: 120%;
+}
+.shape {
+  font-family: miama;
+  font-weight: 400;
+}
+.banner-description {
+  font-size: 1rem;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  margin-bottom: 30px;
+}
+.banner-btn {
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+  line-height: 22px;
+  padding: 16px 40px;
+  background-color: rgb(27, 26, 26);
+  border: 1px solid white;
+  border-radius: 42px;
+}
+.banner-img {
+  position: relative;
+}
+.banner-img img {
+  width: 80%;
+  height: 100%;
+}
+.banner-badge-1 {
+  background-color: rgb(255, 255, 255, 10%);
+  border-radius: 12px;
+  padding: 10px 20px;
+  position: absolute;
+  top: 140px;
+  right: 60px;
+  backdrop-filter: blur(20px);
+}
+.badge1-title {
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+.badge1-description {
+  font-size: 0.8rem;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: rgb(255, 255, 255, 65%);
+}
+.banner-badge-2 {
+  background-color: rgb(255, 255, 255, 10%);
+  border-radius: 12px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  bottom: 80px;
+  left: -80px;
+  backdrop-filter: blur(20px);
+}
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #e6533c;
+  border-radius: 50%;
+}
+.badge2-title {
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: #fafaf9;
+}
+.badge2-description {
+  font-size: 1rem;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: rgb(239, 237, 232, 65%);
+}
+
+
+/* Habit styles */
+.habit-section{
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 130px;
+}
+.habit-title,
+.habit-description{
+  text-align: center; 
+}
+.habit-description{
+  color: rgb(255, 255, 255,50%);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  width: 55%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.habit-container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+  margin-top: 80px;
+}
+.habit-content{
+  text-align: center;
+}
+.habit-content img{
+  border-radius: 50%;
+}
+.habit-content-title{
+  color:#FFFFFF;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 120%;
+  margin-top: 20px;
+}
+.habit-content-des{
+  color: rgb(255, 255, 255,50%);
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.3px;
+  margin-top: 10px;
+}
+
+
+/* Run section style */
+.run-section{
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 130px;
+}
+.run-container{
+  background-color: #222222;
+  border-radius: 18px;
+  padding: 30px 40px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+}
+.run-container img{
+  width: 100%;
+  margin: 0 auto;
+  border-radius: 18px;
+}
+.run-descripton{
+  color: rgb(255, 255, 255,50%);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  margin: 20px 0;
+}
+
+
+/* Training Section style */
+.training-section{
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 130px;
+}
+.training-description{
+  color: rgb(255, 255, 255,50%);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  width: 55%;
+  margin-top: 10px;
+}
+.exercise-imgs{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  margin-top: 60px;
+}
+.exercise-img-1{
+  grid-column: 1 / span 3;
+}
+.exercise-img-2{
+  grid-column: 4 / span 6;
+}
+.exercise-img-3{
+  grid-column: 10 / span 3;
+}
+.exercise-img-4{
+  grid-column: 1 / span 5;
+}
+.exercise-img-5{
+  grid-column: 6 / span 3;
+}
+.exercise-img-6{
+  grid-column: 9 / span 4;
+}
+
+.exercise-img-1,
+.exercise-img-2,
+.exercise-img-3,
+.exercise-img-4,
+.exercise-img-5,
+.exercise-img-6{
+  position: relative;
+  overflow: hidden;
+}
+.image-1,.image-2,.image-3,
+.image-4,.image-5,.image-6{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.overlay-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 255, 255, 0.5);
+}
+.exercise-name-1{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  width: 60%;
+}
+.overlay-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 0, 0,30%);
+}
+.exercise-name-2{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: bold;
+  width: 60%;
+}
+.overlay-3,.overlay-4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:rgb(0, 0, 0,50%);
+}
+.exercise-name-3{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: bold;
+  width: 60%;
+}
+ 
+.exercise-name-4{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: bold;
+  width: 40%;
+}
+.overlay-5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:rgb(66, 255, 0,30%);
+}
+.exercise-name-5{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: bold;
+  width: 60%;
+}
+.overlay-6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:rgb(0, 71, 255,30%);
+}
+.exercise-name-6{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: bold;
+  width: 60%;
+}
+
+
+/* BMI section style */
+.bmi-into{
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 130px;
+  
+}
+.bmi-into-title{
+  width: 50%;
+  margin: 0 auto;
+}
+.bmi-into-des{
+  color: rgb(255, 255, 255,50%);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+.bmi-calculator{
+  background-color: #222222;
+  margin-top: 80px;
+  padding-bottom: 50px;
+}
+.bmi-calculator-content{
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.bmi-calculator-title{
+  font-size: 28px;
+  line-height: 120%;
+  font-weight: 900px;
+  color: #FFFFFF;
+}
+table, td, th {
+  border: 1px solid rgb(255, 255, 255,10%);
+}
+table {
+  width: 50%;
+  border-collapse: collapse;
+  margin-top: 50px;
+}
+th{
+  font-size: 16px;
+  font-weight: 500;
+  color: #FFFFFF;
+  text-align: start;
+  padding: 6px 10px;
+}
+td{
+  font-size: 14px;
+  line-height: 120%;
+  color: rgb(255, 255, 255,50%);
+  padding: 6px 10px;
+}
+.cal-description{
+  color: rgb(255, 255, 255,50%);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  
+}
+form{
+  margin-top: 30px;
+}
+.form-section{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 8px;
+}
+.heigth{
+  background-color: rgb(255, 255, 255,10%);
+  padding:12px 0 ;
+  padding-left: 20px;
+  padding-right: 40px;
+  border-radius: 8px;
+  margin-bottom: 10px; 
+  border: none;
+  width: 100%;
+}
+.activity{
+  background-color: rgb(255, 255, 255,10%);
+  padding:12px 20px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  border: none; 
+  width: 100%;
+  margin-bottom: 30px;
+}
+input::placeholder{
+  font-size: 16px;
+  color: rgb(255, 255, 255,60%);
+
+}
+.select{
+  font-size: 16px;
+  color: rgb(255, 255, 255,60%);
+}
+option{
+  background-color: #222222;
+  font-size: 16px;
+  color: rgb(255, 255, 255,60%);
+}
+
+
+/* Team section style */
+.team-section{
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+.team-title{
+  
+  text-align: center;
+}
+.team-description{
+  color: rgb(255, 255, 255,50%);
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: center;
+  width: 55%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.team-img-container{
+  background-color: #222222;
+  padding: 16px;
+  border-radius: 18px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 16px;
+  margin-top: 50px;
+}
+.team-img img{
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+  border-radius: 18px;
+  
+}
+.team-img{
+  position: relative; 
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0,20%)}
+.trainer-info{
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+
+}
+.trainer-name{
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 120%;
+  color: #FFFFFF;
+}
+.post{
+  font-size: 14px;
+  font-weight: 120%;
+  color: rgb(255, 255, 255,50%);
+}
+
+
+/* Footer section style */
+.footer{
+  background-color: #222222;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.footer-content{
+  width: 80%;
+  margin: 0 auto;
+}
+.footer-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 200px;
+}
+.service-name-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 100px;
+}
+.footer-title{
+  font-size: 70px;
+  font-weight: 800;
+  line-height: 120%;
+  color: #e6533c;
+}
+.footer-description{
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  color: rgb(255, 255, 255,50%);
+}
+.footer-title-ii{
+  font-size: 32px;
+  font-weight: 700px;
+  line-height: 120%;
+  color: #FFFFFF;
+}
+.services{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+.service-name{
+  font-size: 23px;
+  line-height: 120%;
+  color: rgb(255, 255, 255,50%);
+  list-style: none;
+}
+.footer-line{
+  width: 100%;
+  border: 1px solid rgb(255, 255, 255,10%);
+  margin-top: 50px;
+}
+.copy-right{
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  color: rgb(255, 255, 255,50%);
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+/* Mobile device */
+@media screen and (max-width: 576px) {
+  .banner {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+  .nav-items{
+    display: none;
+  }
+  .banner-title{
+    margin-top: 50px;
+    font-size: 40px;
+    width: 70%;
+    margin-bottom: 20px;
+  }
+  #banner-btn1{
+    padding: 9px 18px;
+  }
+  .banner-btn{
+    padding: 9px 18px;
+  }
+  .banner-badge-1 {
+    padding: 8px 16px;
+    position: absolute;
+    top: 30px;
+    right: 10px;
+  }
+  .banner-badge-2 {
+    padding: 8px 16px;
+    gap: 10px;
+    position: absolute;
+    bottom: 180px;
+    left: 0px;
+  }
+  .hide{
+    display: block;
+  }
+  .habit-description{
+    width: 100%;
+  }
+  .habit-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); 
+  }
+  .habit-content-des{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  .run-title{
+    font-size: 35px;
+  }
+  .run-descripton{
+    width: 100%;
+  }
+  .run-container{
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+  }
+  #run-btn{
+    width: 100%;
+  }
+  .training-description{
+    width: 100%;
+  }
+  .exercise-imgs{
+    margin-top: 40px;
+  }
+  .image-3,
+  .overlay-3,
+  .exercise-name-3,
+  .image-6,
+  .overlay-6,
+  .exercise-name-6
+  {
+    display: none;
+  }
+  .exercise-img-1{
+    grid-column: 1 / span 7;
+  }
+  .exercise-img-2{
+    grid-column: 8 / span 5;
+  }
+  .exercise-img-4{
+    grid-column: 1 / span 5;
+  }
+  .exercise-img-5{
+    grid-column: 6 / span 7;
+  }
+  .bmi-calculator-content{
+    grid-template-columns: repeat(1,1fr);
+    gap: 30px;
+  }
+  table {
+    width: 100%;
+    
+  }
+  .bmi-into,.team-section{
+    padding-top: 30px;
+  }
+  .bmi-calculator{
+    margin-top: 50px;
+  }
+  .bmi-into-title,.bmi-into-des{
+    width: 100%;
+  }
+  .team-description{
+    width: 100%;
+  }
+  .team-img-container{
+    grid-template-columns: repeat(1,1fr);
+    gap: 16px;
+   
+  }
+  .service-name-container{
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+  }  
+  .footer-container{
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+  }
+  
+}
+
+/* tab device */
+@media screen and (min-width:576px) and (max-width:992px) {
+  .banner {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+  }
+  .banner-title{
+    margin-top: 50px;
+    font-size: 70px;
+    width: 70%;
+    margin-bottom: 20px;
+  }
+  #banner-btn1{
+    padding: 10px 20px;
+  }
+  .banner-btn{
+    padding: 10px 20px;
+  }
+  .banner-badge-1 {
+    padding: 10px 20px;
+    position: absolute;
+    top: 130px;
+    right: 170px;
+  }
+  .banner-badge-2 {
+    padding: 8px 16px;
+    gap: 10px;
+    position: absolute;
+    bottom: 300px;
+    left: 0px;
+  }
+  .habit-description{
+    width: 80%;
+  }
+  .habit-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+  }
+  .habit-content-des{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .run-container{
+    gap: 20px;
+  }
+  .run-container img{
+    height: 100%;
+  }
+  .training-description{
+    width: 100%;
+  }
+  .bmi-calculator-content{
+    grid-template-columns: repeat(1,1fr);
+    gap: 30px;
+  }
+  .bmi-into-title,.bmi-into-des{
+    width: 100%;
+  }
+  .team-description{
+    width: 100%;
+  }
+  .footer-description{
+    width: 60%;
+  }
+  .footer-container{
+    grid-template-columns: repeat(1,1fr);
+    gap: 100px;
+  }
+
+ 
+  
+}
