@@ -99,8 +99,11 @@ a {
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 300px;
+  gap: 180px;
   align-items: center;
+}
+.banner-content{
+  width: 100%;
 }
 .banner-title {
   color: #ffffff;
@@ -118,13 +121,17 @@ a {
   letter-spacing: 0.5px;
   margin-bottom: 30px;
 }
+.banner-btn-flex{
+  display: flex;
+  gap: 20px;
+}
 .banner-btn {
   color: #ffffff;
   font-size: 1.1rem;
   font-weight: 600;
   text-align: center;
   line-height: 22px;
-  padding: 16px 40px;
+  padding: 16px 45px;
   background-color: rgb(27, 26, 26);
   border: 1px solid white;
   border-radius: 42px;
@@ -135,6 +142,7 @@ a {
 .banner-img img {
   width: 80%;
   height: 100%;
+  margin: 0 auto;
 }
 .banner-badge-1 {
   background-color: rgb(255, 255, 255, 10%);
@@ -419,8 +427,7 @@ a {
 .bmi-into{
   width: 80%;
   margin: 0 auto;
-  padding-top: 130px;
-  
+  padding-top: 130px;  
 }
 .bmi-into-title{
   width: 50%;
@@ -511,7 +518,6 @@ form{
 input::placeholder{
   font-size: 16px;
   color: rgb(255, 255, 255,60%);
-
 }
 .select{
   font-size: 16px;
@@ -532,7 +538,6 @@ option{
   padding-bottom: 130px;
 }
 .team-title{
-  
   text-align: center;
 }
 .team-description{
@@ -559,8 +564,7 @@ option{
   width: 100%;
   height: 270px;
   object-fit: cover;
-  border-radius: 18px;
-  
+  border-radius: 18px; 
 }
 .team-img{
   position: relative; 
@@ -576,7 +580,6 @@ option{
   position: absolute;
   bottom: 20px;
   left: 20px;
-
 }
 .trainer-name{
   font-size: 20px;
@@ -671,11 +674,16 @@ option{
     width: 70%;
     margin-bottom: 20px;
   }
+  .banner-btn-flex{
+    gap: 10px;
+  }
   #banner-btn1{
-    padding: 9px 18px;
+    padding: 9px 9px;
+    font-size: 14px;
   }
   .banner-btn{
-    padding: 9px 18px;
+    padding: 9px 9px;
+    font-size: 14px;
   }
   .banner-badge-1 {
     padding: 8px 16px;

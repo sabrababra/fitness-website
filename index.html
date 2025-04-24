@@ -39,8 +39,10 @@
                 <h1 class="banner-title">Get body in <span class="shape">shape</span> & stay healthy</h1>
                 <p class="banner-description primary-text-color">A huge selection of health and fitness content, healthy
                     recipes and transformation stories to help you get fit and stay fit!</p>
-                <button class="btn-primary" id="banner-btn1">Join Club Now!</button>
-                <button class="banner-btn">Download App</button>
+                <div class="banner-btn-flex">
+                    <button class="btn-primary" id="banner-btn1">Join Club Now!</button>
+                    <button class="banner-btn">Download App</button>
+                </div>
 
 
             </div>
@@ -58,8 +60,6 @@
                     </div>
                 </div>
             </div>
-
-
         </div>
     </header>
     <main>
@@ -198,10 +198,7 @@
                             <div class="form-section">
                                 <input type="text" placeholder="Age" class="heigth select">
 
-                                <select 
-                                id="gender"
-                                class="heigth select"
-                                >
+                                <select id="gender" class="heigth select">
                                     <option selected hidden>
                                         Sex
                                     </option>
@@ -217,8 +214,7 @@
                                 </select>
                             </div>
 
-                            <select
-                             id="gender" name="Select an activity factor" class="activity select">
+                            <select id="gender" name="Select an activity factor" class="activity select">
                                 <option selected hidden>Select an activity factor</option>
                                 <option value="male">Male</option>
                                 <option value="female">Female</option>
@@ -238,10 +234,11 @@
 
         <section class="team-section">
             <h1 class="team-title title">Meet Our Team</h1>
-            <p class="team-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+            <p class="team-description">We believe fitness should be accessible to everyone, everywhere, regardless of
+                income or access to a gym.</p>
             <div class="team-img-container">
                 <div class="team-img">
-                    <img  src="images/trainer1.png" alt="">
+                    <img src="images/trainer1.png" alt="">
                     <div class="overlay"></div>
                     <div class="trainer-info">
                         <h1 class="trainer-name">Jerome Bell</h1>
@@ -295,37 +292,38 @@
     </main>
     <footer class="footer">
         <div class="footer-content">
-        <div class="footer-container">
-            <div>
-                <h1 class="footer-title">Fitness</h1>
-                <p class="footer-description">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
-            </div>
-            <div class="service-name-container">
+            <div class="footer-container">
                 <div>
-                    <h1 class="footer-title-ii">Get Started</h1>
-                    <ul class="services">
-                        <li class="service-name">Service</li>
-                        <li class="service-name">Contacts</li>
-                        <li class="service-name">Affiliate Program</li>
-                        <li class="service-name">About us</li>
-                    </ul>
+                    <h1 class="footer-title">Fitness</h1>
+                    <p class="footer-description">We believe fitness should be accessible to everyone, everywhere,
+                        regardless of income or access to a gym. With hundreds of professional workouts.</p>
                 </div>
-    
-                <div>
-                    <h1 class="footer-title-ii">Get Started</h1>
-                    <ul class="services">
-                        <li class="service-name">Fitness</li>
-                        <li class="service-name">Platform</li>
-                        <li class="service-name">Workout Libary</li>
-                        <li class="service-name">App Design us</li>
-                    </ul>
-                </div>
-            </div>
+                <div class="service-name-container">
+                    <div>
+                        <h1 class="footer-title-ii">Get Started</h1>
+                        <ul class="services">
+                            <li class="service-name">Service</li>
+                            <li class="service-name">Contacts</li>
+                            <li class="service-name">Affiliate Program</li>
+                            <li class="service-name">About us</li>
+                        </ul>
+                    </div>
 
+                    <div>
+                        <h1 class="footer-title-ii">Get Started</h1>
+                        <ul class="services">
+                            <li class="service-name">Fitness</li>
+                            <li class="service-name">Platform</li>
+                            <li class="service-name">Workout Libary</li>
+                            <li class="service-name">App Design us</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer-line"></div>
+            <p class="copy-right">All right reserved @Fitness 2024</p>
         </div>
-        <div class="footer-line"></div>
-        <p class="copy-right">All right reserved @Fitness 2024</p>
-    </div>
 
     </footer>
 </body>
